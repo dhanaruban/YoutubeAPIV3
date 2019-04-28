@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 
         //setting the tabs title
-        tabLayout.addTab(tabLayout.newTab().setText("Channel"));
-        tabLayout.addTab(tabLayout.newTab().setText("PlayList"));
-        tabLayout.addTab(tabLayout.newTab().setText("Live"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tamil"));
+        tabLayout.addTab(tabLayout.newTab().setText("English"));
+        tabLayout.addTab(tabLayout.newTab().setText("Moral Stories"));
 
         //setup the view pager
         final PagerAdapter adapter = new app.com.youtubeapiv3.adapters.PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
