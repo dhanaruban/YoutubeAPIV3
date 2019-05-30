@@ -49,14 +49,14 @@ public class VideoPostAdapter extends RecyclerView.Adapter<VideoPostAdapter.Yout
         //set the views here
         TextView textViewTitle = holder.textViewTitle;
         TextView textViewDes = holder.textViewDes;
-        TextView textViewDate = holder.textViewDate;
+//        TextView textViewDate = holder.textViewDate;
         ImageView ImageThumb = holder.ImageThumb;
 
         YoutubeDataModel object = dataSet.get(position);
 
         textViewTitle.setText(object.getTitle());
         textViewDes.setText(object.getDescription());
-        textViewDate.setText(object.getPublishedAt());
+//        textViewDate.setText(object.getPublishedAt());
         holder.bind(dataSet.get(position), listener);
 
         //TODO: image will be downloaded from url
@@ -81,7 +81,7 @@ public class VideoPostAdapter extends RecyclerView.Adapter<VideoPostAdapter.Yout
             super(itemView);
             this.textViewTitle = (TextView) itemView.findViewById(R.id.textViewTitle);
             this.textViewDes = (TextView) itemView.findViewById(R.id.textViewDes);
-            this.textViewDate = (TextView) itemView.findViewById(R.id.textViewDate);
+//            this.textViewDate = (TextView) itemView.findViewById(R.id.textViewDate);
             this.ImageThumb = (ImageView) itemView.findViewById(R.id.ImageThumb);
 
         }

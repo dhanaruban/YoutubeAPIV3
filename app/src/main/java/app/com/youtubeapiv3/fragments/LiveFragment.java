@@ -38,7 +38,7 @@ import app.com.youtubeapiv3.models.YoutubeDataModel;
 public class LiveFragment extends Fragment {
 
     private static String GOOGLE_YOUTUBE_API_KEY = "AIzaSyAdDix7i7a3an-gyXiquTV_14cIsr8-DZg";//here you should use your api key for testing purpose you can use this api also
-    private static String PLAYLIST_ID = "PLXRActLQ03oZ5U9r3Z15J59tv84C3vz0l";//here you should use your playlist id for testing purpose you can use this api also
+    private static String PLAYLIST_ID = "PLouzdN6CKIGlzj-mV4Ok55941petzbqJ5";//here you should use your playlist id for testing purpose you can use this api also
     private static String CHANNLE_GET_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=" + PLAYLIST_ID + "&maxResults=20&key=" + GOOGLE_YOUTUBE_API_KEY + "";
 
     private RecyclerView mList_videos = null;
